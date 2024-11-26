@@ -1,1 +1,15 @@
+header{
+    padding: 32px;
+    background-color: cyan;
+    display: block;
+}
 
+.titulo{
+    max-width: 980px;
+    left: 16px;
+}
+
+h1{
+    font-size: 1rem;
+    color: white;
+}
