@@ -7,18 +7,47 @@
     vertical-align: baseline;
 }
 
+body{
+    margin: auto;
+}
+
 header{
     padding: 32px;
     background-color: cyan;
-    display: block;
 }
 
 .titulo{
-    max-width: 980px;
-    left: 16px;
+    margin: auto;
+    width: 980px;
+}
+
+.titulo img{
+    display: inline-block;
+    padding: 0 16px 0 0;
 }
 
 h1{
-    font-size: 1rem;
-    color: white;
+    display: inline-block;
+    font-size: 2rem;
+    color: black;
+}
+
+main{
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px auto 32px auto;
+}
+
+span{
+    position: absolute;
+    right: 64px;
+    bottom: 64px;
+    border-radius: 50px;
+    background-color: lightgray;
+}
+
+footer{
+    padding: 32px;
+    background-color: darkslategray;
 }
