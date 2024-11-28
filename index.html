@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Medik</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        const scrollUp = () => {
+        window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+     })
+}
+    </script>
 </head>
 <body>
     <header>
@@ -33,7 +41,7 @@
             </table>
         </div>
 
-        <span class="subir"><img src="" alt="Voltar ao topo."></span>
+        <button class="subir" onclick="scrollUp()"><p>UP</p></button>
     </main>
 
     <footer>
